@@ -5,12 +5,12 @@ with open("README.md", "r") as f:
 
 
 setuptools.setup(
-    name="yourproject"
+    name="adventure_generator"
     version="0.0.1",
-    author="your name",
-    author_email="your@email.com",
-    url="https://github.com/yourusername/yourproject",
-    description="what does yourproject do?",
+    author="Steve Eckles",
+    author_email="steve.d.eckles@gmail.com",
+    url="https://github.com/Steve-D-Eckles/adventure-generator",
+    description="generate your own text-based adventure games!",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
@@ -19,4 +19,3 @@ setuptools.setup(
     tests_require=['pytest'],
     python_requires='>=3.6',
 )
-

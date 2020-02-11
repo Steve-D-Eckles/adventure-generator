@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 
 setuptools.setup(
-    name="adventure_generator"
+    name="advgen"
     version="0.0.1",
     author="Steve Eckles",
     author_email="steve.d.eckles@gmail.com",
